@@ -54,4 +54,25 @@
 #     print("Incorrect rating!")
 
 #####################
+# 1. create develop branch from master branch
+# 2. create feature branch from develop branch
+
+###
+# ввести з клавіатури 3 числа
+# - вивести найменше із трьох чисел
+# - у однакових чисел
+
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
+number3 = int(input("Enter third number: "))
+
+# вивести найменше із трьох чисел
+if number1 < number2 < number3:
+    print(number1)
+elif number2 < number1 < number3:
+    print(number2)
+elif number3 < number2 < number1:
+    print(number3)
+else:
+    print("All numbers equals")
 
