@@ -84,4 +84,5 @@ elif number1 == number2 or number2 == number3 or number1 == number3:
 else:
     print(0)
 
+print("hello")
 
